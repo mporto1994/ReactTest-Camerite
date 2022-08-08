@@ -52,6 +52,6 @@ npm run web
 
 #### Known Issues
 
-If you get the error `ENOSPC: System limit for number of file watchers reached` on running front-end-pwa application and you're running Linux, get a look on:
+If you get the error `ENOSPC: System limit for number of file watchers reached` on running ReactTest application and you're running Linux, get a look on:
 
 <https://stackoverflow.com/questions/55763428/react-native-error-enospc-system-limit-for-number-of-file-watchers-reached>

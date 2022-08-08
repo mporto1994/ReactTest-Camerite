@@ -1,5 +1,30 @@
 # ReactTest
 
+## Test
+
+![App Layout Sample](./sample.png)
+
+### Font Awesome
+
+We'll be using font awesome for icons in our application.
+Here's a sample that should be enough for you to make the app:
+
+```typescript
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
+
+// on tsx use:
+function App() {
+    return (
+        <FontAwesomeIcon icon={faTrashCan} color="red" size='2x' />
+    )
+}
+```
+
+For this test, you'll be using the icons `faPencil`, `faTrashCan`, `faArrowLeft`, `faPlay` and `faPlusCircle`.
+
+If you want to know more... Feel free to see the [official documentation](https://fontawesome.com/v6/docs/web/use-with/react/).
+
 ## Install
 
 ### How to Install?

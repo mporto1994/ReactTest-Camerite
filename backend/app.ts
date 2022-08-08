@@ -1,4 +1,4 @@
-import express, { Express, json, Request, Response } from 'express';
+import express, { Express, Request, Response, NextFunction } from 'express';
 import morgan from 'morgan';
 import bodyParser from 'body-parser';
 
@@ -42,6 +42,23 @@ class InvalidPlanValue extends ExtendableError {
 class InvalidExternalValue extends ExtendableError {
 }
 
+function cross_api_cors(req: Request, res: Response, next: NextFunction) {
+
+    const raw_url = req.headers.origin || req.headers.host;
+
+    if (!raw_url) {
+        return next();
+    }
+    const url = new URL(raw_url);
+
+    res.header("Access-Control-Allow-Origin", url.origin);
+    res.header("Access-Control-Allow-Credentials", "true");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization, x-camerite-platform");
+    res.header("Access-Control-Allow-Methods", "*");
+
+    return next();
+}
+
 class WebService {
     constructor() {
         this.port = process.env.PORT || "5000";
@@ -52,6 +69,7 @@ class WebService {
         }));
 
         this.app.use(morgan("common"));
+        this.app.use(cross_api_cors);
 
         console.log("[WebService] - Adding routes");
 

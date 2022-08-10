@@ -103,8 +103,8 @@ If you want to know more... Feel free to see the [official documentation](https:
 
 ### Colors
 
-The suggest header color is <b><span style="color:#0071BC">#0071BC</span></b>.
-For the pages, you can use <b>white</b> color.
+The suggest header color is `#0071BC`.
+For the pages, you can use `white` color.
 
 ## How to Install? 🤘
 

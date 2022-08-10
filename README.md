@@ -36,10 +36,10 @@ The routes that you'll be using are:
   - method: GET
   - URI: <http://localhost:5000/cameras>
   - returns: a list of camera json object
-    - id: integer,
-    - title: string,
-    - plan: "1dia" | "3dias" | "7dias",
-    - external: boolean,
+    - id: integer
+    - title: string
+    - plan: "1dia" | "3dias" | "7dias"
+    - external: boolean
     - image_url: string
 - Deleting Camera
   - method: DELETE

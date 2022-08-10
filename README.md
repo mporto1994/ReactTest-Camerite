@@ -28,7 +28,7 @@ If you wan't to see it's implementation (not required) you can access the file [
 
 The backend implements a REST API for cameras.
 
-If you use [Postman](https://www.postman.com) you can import the backend collection using the file [ReactTest.postman_collection.json](./ReactTest.postman_collection.json).
+_If you use [Postman](https://www.postman.com) you can import the backend collection using the file [ReactTest.postman_collection.json](./ReactTest.postman_collection.json)._
 
 The routes that you'll be using are:
 

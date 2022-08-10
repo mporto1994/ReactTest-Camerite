@@ -146,6 +146,24 @@ npm install --global expo-cli
 
 ## How to run?
 
+### Backend
+
+First thing you need to run is the backend application.
+To do so, execute:
+
+```bash
+nvm use
+npm run backend
+```
+
+By default, there'll be already one created camera that you can use for listing or deleting.
+Every time that you re-run the backend it resets all the stored information.
+Use it at will.
+
+### Frontend
+
+Execute:
+
 ```bash
 nvm use
 npm run web

@@ -19,7 +19,7 @@ Use it at will.
 There's already an routing defined as an example for the CameraList page.
 You can use the same strategy when defining the CameraForm route.
 
-You can add any dependency on the project, although it's not required.
+You can add any dependencies on the project, although it's not required.
 
 ### About the backend
 

@@ -5,7 +5,7 @@ The main objective of ReactTest is to implement a CRUD for cameras.
 
 ## About the project
 
-On the image bellow, you can see a design made for this features:
+On the image bellow, you can see a design made for these features:
 
 ![App Layout Sample](./sample.png)
 

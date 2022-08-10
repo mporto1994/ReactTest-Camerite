@@ -63,6 +63,7 @@ The routes that you'll be using are:
 - Updating Camera
   - method: PUT
   - URI: <http://localhost:5000/cameras/:cameraId>
+  - path param: `cameraId` must be the `id` property for a camera.
   - body's content-type: application/json
   - body parameters:
     - title: string

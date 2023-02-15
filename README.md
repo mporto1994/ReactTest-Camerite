@@ -141,7 +141,7 @@ If it the first time that you are running the application, you need to install e
 
 ```bash
 nvm use
-npm install --global expo-cli
+npm install --global expo-cli@6.0.1
 ```
 
 ## How to run?

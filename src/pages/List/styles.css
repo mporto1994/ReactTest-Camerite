@@ -1,0 +1,17 @@
+.cardHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: 'center';
+    justify-content: 'center';
+    background-color: #fff;
+}
+.cardHeader p{
+    margin: 0;
+}
+card{
+    border-radius: 5px;
+
+}
+.card img{
+    height: 180px;
+}

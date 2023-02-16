@@ -110,6 +110,8 @@ For the pages, you can use `white` color.
 
 ### NVM - Node.js and NPM
 
+### Linux
+
 We recommend you to use `nvm` to download the version of `node.js` used on the project.
 
 To download the `nvm` run the follow command:
@@ -126,6 +128,23 @@ _Make sure you are on the current path of the project, where the `.nvmrc` file i
 
 ```bash
 nvm install
+```
+
+#### Windows
+
+Download the last version of nvm-windows:
+- https://github.com/coreybutler/nvm-windows/releases
+
+You'll need to run nvm on PowerShell executing as an administrator (as well as all the folling commands).
+Then execute:
+
+```powershell
+nvm install 16.13.0
+```
+
+Expo will need a permission a windows permission to build the webpackage. To get this permission execute the follow:
+```powershell
+Set-ExecutionPolicy RemoteSigned
 ```
 
 ### Project Dependencies

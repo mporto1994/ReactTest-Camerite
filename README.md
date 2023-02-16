@@ -110,7 +110,7 @@ For the pages, you can use `white` color.
 
 ### NVM - Node.js and NPM
 
-### Linux
+#### Linux
 
 We recommend you to use `nvm` to download the version of `node.js` used on the project.
 

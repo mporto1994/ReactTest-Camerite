@@ -135,7 +135,7 @@ nvm install
 Download the last version of nvm-windows:
 - https://github.com/coreybutler/nvm-windows/releases
 
-You'll need to run nvm on PowerShell executing as an administrator (as well as all the folling commands).
+You'll need to run nvm on PowerShell executing as an administrator (as well as all the following commands).
 Then execute:
 
 ```powershell

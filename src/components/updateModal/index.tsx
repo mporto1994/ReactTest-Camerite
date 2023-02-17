@@ -15,7 +15,6 @@ interface CameraListProps {
 }
 
 const UpdateModal = ({modalVisible,setModalVisible,cameraToChange,setCameraToChange})=>{
-    // const [modalVisible, setModalVisible] = useState (false)
     const [name, setName] = useState ("")
     const [plan, setPlan] = useState("")
     const [external, setExternal] = useState(false)
@@ -32,13 +31,12 @@ const UpdateModal = ({modalVisible,setModalVisible,cameraToChange,setCameraToCha
             const response = await fetch(`http://localhost:5000/cameras/${cameraToChange}`, requestOptions) 
             const respDataResponse = await response.json()
             console.log(respDataResponse)
+            setName("")
+            setPlan("")
+            setCameraToChange(undefined)
             setModalVisible(false)
         }
     }
-
-    useEffect(()=>{
-        
-    },[])
 
     return(
         <Modal

@@ -33,10 +33,6 @@ const CameraForm = ({navigation} : CameraListProps)=>{
         navigation.navigate("CameraList")
     }
 
-    useEffect(()=>{
-        
-    },[])
-
     return(
         <>
             <Header>

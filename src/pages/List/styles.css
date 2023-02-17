@@ -1,17 +1,27 @@
 .cardHeader{
     display: flex;
     flex-direction: row;
-    align-items: 'center';
-    justify-content: 'center';
+    align-items: center;
+    justify-content: space-between;
     background-color: #fff;
+    height: 30px;
+    padding: 0 8px;
 }
 .cardHeader p{
     margin: 0;
 }
-card{
-    border-radius: 5px;
+.card{
+    /* display: flex; */
+    /* height: 180px; */
+    box-sizing: border-box;
+    overflow-y: auto;
+    border:1px solid #aaa;
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 15px;
 
 }
-.card img{
+/* .card img{
     height: 180px;
-}
+
+} */
